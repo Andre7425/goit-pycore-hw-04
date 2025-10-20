@@ -1,0 +1,6 @@
+Alex Tkachenko,2000
+Andrii Sereda,1000
+Maksym Doroba,3000
+Petro Siryi,2000
+Daryna Fedak,2000
+Marta Goryn,3000
