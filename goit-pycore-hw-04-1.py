@@ -1,6 +1,6 @@
-from typing import Tuple
 
-def total_salary(path: str) -> Tuple[int, float]:
+
+def total_salary(path: str): # -> Tuple[int, float]
     """
     Повертає (сума_всіх_зарплат, середня_зарплата).
     Формат рядка: 'Прізвище Ім'я,число'. Порожні/биті рядки ігноруються.
