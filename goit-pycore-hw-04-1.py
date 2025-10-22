@@ -1,6 +1,6 @@
 
 
-def total_salary(path: str): # -> Tuple[int, float]
+def total_salary(path: str): # -> Tuple[float, float]
     """
     Повертає (сума_всіх_зарплат, середня_зарплата).
     Формат рядка: 'Прізвище Ім'я,число'. Порожні/биті рядки ігноруються.
@@ -19,7 +19,7 @@ def total_salary(path: str): # -> Tuple[int, float]
                 try:
                     # беремо все праворуч від останньої коми як суму
                     _, salary_str = line.rsplit(",", 1)
-                    salary = int(salary_str)
+                    salary = round(float(salary_str), 1)
                 except ValueError:
                     # якщо рядок пошкоджений — пропускаємо
                     continue
